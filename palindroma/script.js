@@ -9,14 +9,10 @@ function isPalindrome(parola){
         parolaArray.push(parola[i])
     } 
     // controllo se la parola è uguale per entrambi gli array
-    if (parolaArray.join('') === parolaContrario.join('')){
-        console.log("true")
-    }
-    else{
-        console.log("false")
-        
-    }
+    return (parolaArray.join('') === parolaContrario.join(''))
+
+
 }
-isPalindrome(parola)
+console.log(isPalindrome(parola))
 
 
